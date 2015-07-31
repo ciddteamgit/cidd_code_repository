@@ -1,0 +1,23 @@
+#create,#save,#cancel{
+	width: 100px;
+	text-align: center; 
+	border-radius: 15px;
+	margin-top: 10px;
+}
+#table_create_new{
+	border: 1px solid black;
+	padding: 5px;
+}
+select{
+	margin-top: 10px;
+	min-height: 34px;
+	width: 100%;
+}
+textarea{
+	margin-top: 10px;
+	width: 100%;
+	resize: none;
+}
+label, input{
+	margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+<!--  <!DOCTYPE html>
+<html>
+	<head>
+		<title>CIDD</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../css/dashboard/dashboard_plan.css" rel="stylesheet">
+	</head>
+	<body> -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2 col-md-2 col-lg-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+					<label for="release_sel">Release</label>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 ">
+					<select id="release_sel" ></select>
+				</div>
+			</div>
+			<div class="row" id="dashboard_rel_select">
+					<button type="button" class="btn btn-default btn-primary" id="gantt_display_btn">Gantt
+					</button>
+					<button type="button" class="btn btn-default" id="burndown_display_btn">Burndown
+					</button>
+					<button type="button" class="btn btn-default" id="table_display_btn">Overall Status
+					</button>
+			</div>			
+			<div class="row" id="ganttchart">
+			</div>
+			<div class="row" id="burndownchart">
+			</div>		
+			<div class="row" id="plan_table_data">
+				<table>
+					<thead><tr>
+						<th>Open</th>
+						<th>Closed</th>
+						<th>Deferred</th>
+					</tr></thead>
+				</table>
+			</div>		
+		<script type="application/javascript" src="../js/dashboard/dashboard_plan.js"></script> 
+		<script type="application/javascript" src="../js/dashboard/gantt_release_wise.js"></script>
+		<script type="application/javascript" src="../js/dashboard/burndown.js"></script>
+		</div>
+<!-- 	</body>
+</html> -->

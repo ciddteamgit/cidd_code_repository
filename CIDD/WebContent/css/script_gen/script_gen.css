@@ -1,0 +1,121 @@
+#script_gen_menu_list >li{
+	border:1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	background:#f6f6f6;
+	color:#000;
+	font-weight: bold;
+}
+table{
+	width:100%;
+}
+th{
+	width:15%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color:#52A2D8;
+}
+td{
+	width:15%;
+	padding-bottom: 10px;
+	padding-top :10px;
+}
+td:first-child, th:first-child { 
+    width:5%;
+}
+td:last-child, th:last-child { 
+    width:35%;
+}
+tr:nth-child(even) {
+	background-color:#fff;
+}
+tr:nth-child(odd) {
+	background-color: #D8E3EC;
+}
+
+
+
+
+
+
+
+
+/*.table_fullWidth{
+	//height: 150px;
+	overflow-y: scroll;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#table_create_new1{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#create_new_r1, #script_display, #log_display
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+.create_new_buttons{
+	padding: 15px;
+}
+#create_new_r2{
+	border: 1px solid black;
+	padding: 5px;
+}
+.check_cmd{
+	border: 1px solid black;
+	padding: 5px;
+}
+body{
+	line-height: 2;
+}
+
+#menu{
+	text-align: center;
+}
+
+.nav-pills > li > a.active{
+    background-color:#337ab7;
+    color:#fff;
+}
+.active{
+    background-color:#337ab7;
+    color:#fff;
+}
+#data_contents1 {
+	padding-top: 20px; 
+}
+#data_contents1 ol li #cli_row {
+	position: relative; 
+	top: -20px;
+}
+#data_val input {
+	margin-bottom: 10px;
+}
+select{
+	width: 100%;
+}
+#script_button, #script_cancel, #test_button, #test_cancel, #tst_cancel,#save, #cancel, #save_update, #show, #cli_create_prop_save{
+	width: 100px;
+	text-align: center;
+	border-radius: 15px;
+    margin-top: 5px; 
+}
+
+#add_row, #sub_row, #create_prop, #create_data_file, #add_data, #cli_create_data_save, #cli_data_cancel,#web_UI_create_data_save, #cli_data_cancel, #add, #web_ui_create_obj_repo_save, #cli_create_prop_cancel, #cli_create_prop_save, #cli_create_prop_cancel, #web_UI_create_prop_save, #cli_create_prop_cancel, #create_prop1, #create_data_file1, #create_obj_repo
+{
+	text-align: center;
+	border-radius: 15px;
+}	
+h4{
+	text-align: center !important;
+}
+#script_display{
+	height: 200px;
+	overflow-y: scroll; 
+}
+#log_display{
+	height: 200px;
+	overflow-y: scroll; 
+}*/
